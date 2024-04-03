@@ -20,10 +20,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-version: '3'
+version: "3"
 
 env:
-  K6_VERSION: v0.43.0
+  K6_VERSION: v0.50.0
 
 silent: true
 
@@ -39,7 +39,7 @@ tasks:
 
   build:
     sources:
-      - '**/*.go'
+      - "**/*.go"
     generates:
       - k6
     cmds:
